@@ -15,10 +15,18 @@ body {
     background: url(images/white-dog.jpg) no-repeat center;
     background-size: cover;
     width: 45%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    border: 0;
 } 
 
 .container-right {
     width: 55%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
 .logoContainer {
@@ -52,16 +60,102 @@ body {
 
 .subContainer_1 {
     height: 30%;
-    background-color: #e2e2e2;
+    background-color: rgb(243, 237, 230);
+    font-size: 1.25rem;
+    text-align: left;
+    padding: 0 3%;
+    
+    
+}
+.textContent_right-1 {
+    color: rgb(80, 80, 78);
+    position: relative;
+    top: 35%;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
     
 }
 
 .subContainer_2 {
+    display: flex;
+    flex-direction: column;
     height: 40%;
-    box-shadow: red
+    box-shadow: 0px 0px 100px #d4d4d0;
+    clip-path: inset(-5px -5px -5px 0);
+    padding-left: 5%;
+    
+   
 }
 
+
+.subContainer_2-header{
+    padding: 0;
+    padding-top: 4%;
+    font-size: 1.5rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding-left: 1%;
+    padding-top: 2%;
+}
+
+li {
+    margin: 1rem 2rem 2rem 0 ;
+    margin-right: 5rem;
+}
+label {
+    color: rgb(54, 53, 53);
+    font-size: 0.9rem;
+}
+input {
+    border: 1px solid rgb(224, 224, 224);
+    font-size: .9rem;
+    padding: 0.2rem;
+}
+
+input:focus {
+    border: skyblue ;
+    box-shadow: 0.2rem 0.3rem 5px gray;
+}
+
+input:invalid {
+    border: 2px solid red;
+    box-shadow: 0.05rem 0.05rem 3px crimson;
+}
 .subContainer_3 {
     height: 30%;
-    background-color: #e2e2e2;
+    background-color: rgb(243, 237, 230);
+    
 }
+.createAccount {
+    background-color: rgb(218, 207, 162);
+    font-size: 1rem;
+    margin: 1.5rem;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0.2rem 0.5rem 10px gray;
+    color: rgb(95, 95, 91);
+    font-weight: bolder;
+}
+
+.createAccount:hover {
+    position:relative;
+    color:white;
+    top:0.1rem;
+}
+
+.login {
+    margin-left: 2rem;
+    color:  rgb(44, 44, 43);;
+}
+
+a {
+    color: rgb(95, 95, 91);
+    text-decoration: none;
+    
+}
+
